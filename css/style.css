@@ -4,13 +4,12 @@
     border: 0;
     font-size: 100%;
     font-family: Arial, bold;
- 
 }
 
 span {
     color: #00a3d9;
 }
-
+/**/
 body {
 background-color: #00698c;
 display: flex;
@@ -26,13 +25,17 @@ a {
     text-decoration: none;
     color: #FFFFFF;
 }
+a:hover {
+    text-decoration: none;
+    color: #00a3d9;
+}
+
 
 nav {
     width: 1000px;
     border-bottom: 1px solid #00a3d9; 
     display: flex;
-    padding: 20px;
-    margin-top: 10px;
+    padding: 10px;
 }
 
 #nav-links{
@@ -41,14 +44,12 @@ nav {
     align-items: center;
     width: 100%;
     font-weight: bold;
-   margin-left: 150px;
-
+    margin-left: 150px ;
 }
 
 #logo {
     width: 308px;
     height: 140px;
-
 }
 
 header {
@@ -58,6 +59,7 @@ header {
 main {
     display: flex;
     margin-top: 100px;
+    justify-content: space-between;
 }
 
 h1 {
@@ -82,6 +84,7 @@ button {
     height: 60px;
     border: 2px solid #FFFFFF;
     background-color: transparent;
+    border-radius:5px;
 }
 
 #texto-meio {
@@ -91,7 +94,7 @@ button {
 #imagem-meio {
     width: 340px;
     height: 522px;
-    margin-left: 150px;
+  
    
 }
 
@@ -108,17 +111,13 @@ footer {
 }
 
 #rodape-texto{
-    margin-left: -350px;
+    margin-left: -200px;
+    margin-right: 290px;
 }
 #rodape-links{
-    align-items: center;
-    margin-left: 150px;
+    
     
 }
-
-#wrapper-footer{
-}
-
 footer p {
     font-size: 18px;
     
@@ -126,4 +125,11 @@ footer p {
 
 footer a {
     margin-right: 15px;
+
+}
+
+footer img {
+ 
+        width: 40px;
+        height: 40px;
 }
