@@ -4,7 +4,7 @@
     border: 0;
     font-size: 100%;
     font-family: Arial, bold;
-    
+ 
 }
 
 span {
@@ -13,16 +13,13 @@ span {
 
 body {
 background-color: #00698c;
-
-/* margin: 0 auto; */
+display: flex;
+justify-content: center;
 }
 
-#wrapper-body{
+#wrapper-b{
 width: 1000px;
 height: 980px;
-
-
-
 }
 
 a {
@@ -35,10 +32,7 @@ nav {
     border-bottom: 1px solid #00a3d9; 
     display: flex;
     padding: 20px;
-}
-
-#nav-logo{
- 
+    margin-top: 10px;
 }
 
 #nav-links{
@@ -47,7 +41,7 @@ nav {
     align-items: center;
     width: 100%;
     font-weight: bold;
-    margin-left: 150px;
+   margin-left: 150px;
 
 }
 
@@ -58,13 +52,12 @@ nav {
 }
 
 header {
-    margin-left: 100px;
+    
 }
 
 main {
     display: flex;
     margin-top: 100px;
-    margin-left: 100px;
 }
 
 h1 {
@@ -107,26 +100,30 @@ footer {
     display: flex;
     width: 100%;
     background-color: #85b200;
-    padding: 20px;
+    padding: 10px;
     align-items: center;
     position: fixed;
     bottom: 0;
+    justify-content: center;
 }
 
 #rodape-texto{
-    margin-left: 80px;
+    margin-left: -350px;
 }
 #rodape-links{
     align-items: center;
     margin-left: 150px;
-
+    
 }
 
 #wrapper-footer{
-    width:100% ;
 }
 
 footer p {
     font-size: 18px;
     
+}
+
+footer a {
+    margin-right: 15px;
 }
